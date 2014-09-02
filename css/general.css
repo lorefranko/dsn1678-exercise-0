@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+html {
+	font: normal 100%/1.5 sans-serif; /* 16px/24px */
+	font-weight: 400;
+	color: #00000;
+}
 h1{
 	font-size: 18em;
 	font-family: sans-serif;
@@ -11,4 +16,23 @@ h2{
 	font-size: 12em;
 	font-family: sans-serif;
 	color: green;
+}
+
+/* BULLETS customized */
+
+ul {
+	list-style-type: none; /* Get rid of the bullets*/
+	position: relative;
+}
+
+li{
+	position: relative;
+}
+
+ul li:before {
+	content: "·"; /* opt-shift 9=small, opt 8= bigger, or put a special character from the compter*/
+	color: #5C5C5C;
+	position: absolute; /* To change the position of bullets*/
+	text-align: right;
+	left: -1em;
 }

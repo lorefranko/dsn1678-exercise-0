@@ -1,7 +1,11 @@
 h1{
-	font-size: 14em;
+	font-size: 18em;
+	font-family: sans-serif;
+	color: purple;
 }
 
 h2{
 	font-size: 12em;
+	font-family: sans-serif;
+	color: green;
 }
